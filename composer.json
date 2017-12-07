@@ -1,0 +1,21 @@
+{
+  "name": "srmilon/log-viewer",
+  "type": "library",
+  "description": "To view laravel logs in details",
+  "keywords":["log","laravel-log"],
+  "homepage":"https://github.com/milonfci/log-viewer",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {"Srmilon\\LogViewer\\": "src/"}
+  },
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "authors": [
+    {
+      "name": "Saidur Rahman Milon",
+      "email": "milonfci@gmail.com"
+    }
+  ]
+
+}
