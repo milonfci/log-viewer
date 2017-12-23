@@ -32,6 +32,7 @@ Route::get('/log', '\Srmilon\LogViewer\LogViewerController@index');
 ```
 
 Now you can browse your laravel website logs using `{your-website-url}/log`.
+
 For example:
 
 ```
