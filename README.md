@@ -25,6 +25,13 @@ providers' => [
   ]
 ```
 
+For publishing views
+```
+php artisan vendor:publish \
+  --provider="Srmilon\LogViewer\LogServiceProvider" \
+  --tag=views
+```
+
 Then add folloiwng route in your routes file:
 
 ```
