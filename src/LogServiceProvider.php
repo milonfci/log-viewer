@@ -13,7 +13,15 @@ class LogServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/views', 'log-viewer');
+        if (method_exists($this, 'loadViewsFrom')) {
+            $this->loadViewsFrom(__DIR__ . '/views', 'log-viewer');
+        }
+
+        if (method_exists($this, 'publishes')) {
+            $this->publishes([
+                __DIR__ . '/views' => base_path('/resources/views/vendor/log-viewer'),
+            ], 'views');
+        }
     }
 
     /**
