@@ -37,6 +37,5 @@
         "Srmilon\\LogViewer\\LogServiceProvider"
       ]
     }
-  },
-  "minimum-stability": "stable"
+  }
 }
