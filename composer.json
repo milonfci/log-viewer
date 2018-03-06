@@ -21,7 +21,7 @@
     "classmap": [
       "src/Controllers"
     ],
-    "psr-0": {
+    "psr-4": {
       "Srmilon\\LogViewer\\": "src/"
     }
   },
